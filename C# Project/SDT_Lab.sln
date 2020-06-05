@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{58853142-C672-43E2-A473-2B0ACCDA7738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{58853142-C672-43E2-A473-2B0ACCDA7738}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{2F53A098-512B-4039-8698-FB0A5284D6C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{2F53A098-512B-4039-8698-FB0A5284D6C0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{178BE6A2-6C97-4F4C-A8C5-6E1CADE8BFAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{178BE6A2-6C97-4F4C-A8C5-6E1CADE8BFAF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCL", "CCL\CCL.csproj", "{16A7ED5D-BA7B-4E2E-B944-B1D2432B021A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Tests", "BLL.Tests\BLL.Tests.csproj", "{54ED5BF3-6918-4709-820D-7AA21350D559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{16A7ED5D-BA7B-4E2E-B944-B1D2432B021A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A7ED5D-BA7B-4E2E-B944-B1D2432B021A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A7ED5D-BA7B-4E2E-B944-B1D2432B021A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54ED5BF3-6918-4709-820D-7AA21350D559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54ED5BF3-6918-4709-820D-7AA21350D559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54ED5BF3-6918-4709-820D-7AA21350D559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54ED5BF3-6918-4709-820D-7AA21350D559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
